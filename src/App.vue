@@ -2,7 +2,7 @@
   import { defineComponent, PropType } from 'vue';
 
   type User = {
-    name : string;
+    nickname : string;
   }
 
   export default defineComponent({
