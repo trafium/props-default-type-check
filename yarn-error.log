@@ -1,0 +1,53 @@
+Arguments: 
+  /Users/traf/.nvm/versions/node/v16.10.0/bin/node /usr/local/Cellar/yarn/1.22.17/libexec/bin/yarn.js
+
+PATH: 
+  /Users/traf/.cabal/bin:/Users/traf/.ghcup/bin:/Users/traf/.nvm/versions/node/v16.10.0/bin:/usr/local/opt/qt@5.5/bin:/Users/traf/.rbenv/shims:/Users/traf/.rbenv/bin:/Users/traf/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/traf/.cabal/bin:/Users/traf/.ghcup/bin:/Users/traf/.nvm/versions/node/v16.10.0/bin:/usr/local/opt/qt@5.5/bin:/Users/traf/.rbenv/shims:/Users/traf/.rbenv/bin:/Users/traf/.local/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.24.35:443 - Local (0.0.0.0:58200)
+      at internalConnect (node:net:916:16)
+      at defaultTriggerAsyncIdScope (node:internal/async_hooks:454:18)
+      at emitLookup (node:net:1060:9)
+      at /usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:107658:28
+      at /usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:107567:13
+      at RawTask.module.exports.RawTask.call (/usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:83655:19)
+      at flush (/usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:83737:29)
+      at processTicksAndRejections (node:internal/process/task_queues:78:11)
+      at runNextTicks (node:internal/process/task_queues:65:3)
+      at processImmediate (node:internal/timers:437:9)
+
+npm manifest: 
+  {
+    "name": "props-default-type-check",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vue-tsc --noEmit && vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.2.16"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^1.9.3",
+      "typescript": "^4.4.3",
+      "vite": "^2.6.4",
+      "vue-tsc": "^0.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
